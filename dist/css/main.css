@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url("../img/BG.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 103, 200, 0.5);
+  background-blend-mode: multiply; }
+
+html {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif; }
+
+/*Black upper nav thingy*/
+#blackNav {
+  position: relative;
+  top: 2rem;
+  background-color: #242323;
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 20px; }
+  #blackNav ul {
+    padding: 1rem;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; }
+  #blackNav p {
+    padding-right: 1rem;
+    display: flex;
+    align-items: center; }
+  #blackNav img {
+    width: 25px; }
+  #blackNav a {
+    color: white;
+    text-decoration: none; }
+    #blackNav a:hover {
+      color: #4cafcf; }
+
+/* The ACTUAL Navigation Bar*/
+#presonusNav {
+  overflow: hidden;
+  position: relative;
+  top: 4rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 80vw; }
+  #presonusNav ul {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    list-style: none; }
+  #presonusNav li:hover {
+    padding: 2rem, 2rem, 5rem, 2rem;
+    background-color: purple;
+    border-radius: 30%;
+    height: auto; }
+  #presonusNav img {
+    width: 150px;
+    height: auto; }
+  #presonusNav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem; }
+
+#myLinks {
+  display: none;
+  position: absolute;
+  left: 80%;
+  top: 30%;
+  width: 20rem;
+  height: 10rem;
+  line-height: 1.2rem;
+  background-size: cover;
+  color: white; }
+  #myLinks ul {
+    background-color: black;
+    padding: 5rem;
+    list-style: none; }
+  #myLinks a {
+    text-decoration: none;
+    color: #4cafcf; }
+  #myLinks .red {
+    color: red; }
+
+.userInfo {
+  display: flex;
+  color: white;
+  width: 80vw;
+  margin: auto;
+  padding-top: 10rem;
+  font-size: 1.3rem; }
+  .userInfo .user {
+    display: flex;
+    width: 50%;
+    padding-right: 1rem;
+    line-height: 2rem; }
+    .userInfo .user h2 {
+      font-size: 2rem; }
+    .userInfo .user .half2 {
+      padding-left: 1rem; }
+  .userInfo .buyOurStuff {
+    width: 50%;
+    padding-left: 1rem;
+    font-size: 1.8rem; }
+    .userInfo .buyOurStuff .register {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 3.2rem;
+      background-color: #ffbb00;
+      border-radius: 5px; }
+      .userInfo .buyOurStuff .register a {
+        font-size: 2rem;
+        color: white;
+        text-decoration: none; }
+      .userInfo .buyOurStuff .register:hover {
+        height: 3.4rem;
+        cursor: pointer; }
